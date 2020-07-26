@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Youtube
+Comment=Unofficial Youtube Desktop Application
+Icon=/opt/Youtube/resources/app/icon.png
+Exec=/opt/Youtube/Youtube
+Categories=Video;
+Name[en_AU.utf8]=Youtube
