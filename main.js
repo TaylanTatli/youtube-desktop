@@ -12,6 +12,7 @@ function createWindow () {
     icon: __dirname + '/icon.png',
     backgroundColor: '#2C2C2C',
     webPreferences: {
+     contextIsolation: true
     }
   })
 

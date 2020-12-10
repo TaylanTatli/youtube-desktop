@@ -2,7 +2,7 @@
 
 Unofficial Youtube application, Open source and multi-platform for all platforms to use.
 
-## Version 1.0.3-4
+## Version 1.0.4-1
 
 Enjoy all your Youtube content just like on the web version all wrapped up into a desktop application!
 
@@ -39,12 +39,13 @@ Even manage and run your streams conveniently from the Youtube application.
  ### Zipped Portable File:
  - [Download](https://gitlab.com/youtube-desktop/binaries/-/raw/master/Youtube-win32-x64.zip)
 
- ## Mac OS 64bit
+ ## Mac OS
 
- ###  Zipped Portable File:
+ ###  Mac OS x64:
  - [Download](https://gitlab.com/youtube-desktop/binaries/-/raw/master/Youtube-darwin-x64.zip)
 
-
+ ###  Mac OS Arm64:
+ - [Download](https://gitlab.com/youtube-desktop/binaries/-/raw/master/Youtube-darwin-arm64.zip)
 
  ### Author
   * Corey Bruce
