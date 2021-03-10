@@ -2,7 +2,7 @@
 
 Unofficial Youtube application, Open source and multi-platform for all platforms to use.
 
-## Version 1.0.4-2
+## Version 1.0.5-1
 
 Enjoy all your Youtube content just like on the web version all wrapped up into a desktop application!
 
