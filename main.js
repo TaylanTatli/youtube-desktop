@@ -1,8 +1,22 @@
 // Modules to control application life and create native browser window
-const {app, BrowserWindow} = require('electron')
+const {app, BrowserWindow, shell} = require('electron')
+const contextMenu = require('electron-context-menu');
 const path = require('path')
 
 app.commandLine.appendSwitch('enable-tcp-fastopen')
+
+contextMenu({
+	prepend: (defaultActions, params, browserWindow, dictionarySuggestions) => [
+		{
+			label: 'Search Google for “{selection}”',
+			// Only show it when right-clicking text
+			visible: params.selectionText.trim().length > 0,
+			click: () => {
+				shell.openExternal(`https://google.com/search?q=${encodeURIComponent(params.selectionText)}`);
+			}
+		}
+	]
+});
 
 function createWindow () {
   // Create the browser window.
@@ -12,7 +26,8 @@ function createWindow () {
     icon: __dirname + '/icon.png',
     backgroundColor: '#2C2C2C',
     webPreferences: {
-     contextIsolation: true
+     contextIsolation: true,
+     preload: path.join(app.getAppPath(), 'preload.js')
     }
   })
 
