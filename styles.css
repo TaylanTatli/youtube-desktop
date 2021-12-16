@@ -2,37 +2,6 @@ body {
   margin: 0;
   background: #2e2b29;
 }
-.bg-cont {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 100%;
-  height: 100%;
-  border: none;
-  background: url(splash.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
-	animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
-}
-@-webkit-keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 .loader-cont {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
@@ -41,12 +10,16 @@ body {
   height: 85px;
   position: absolute;
   z-index: 2;
-  margin: 65vh auto auto 48vw;
+  margin: 65vh auto auto auto;
   overflow: hidden;
   padding: auto;
   border: none;
-  -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
-	animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+  -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+  animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 @-webkit-keyframes fade-in {
   0% {
@@ -74,7 +47,6 @@ body {
   display: block;
   width: 34px;
   height: 34px;
-  margin: 8px;
   border-radius: 50%;
   border: 6px solid #fff;
   border-color: #fff transparent #fff transparent;
@@ -87,4 +59,24 @@ body {
   100% {
     transform: rotate(360deg);
   }
+}
+.logo {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  background: url("icon.svg");
+  background-repeat: no-repeat;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: 90% 90%;
+  background-size: 90% 90%;  
+  -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.3s both;
+	animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.3s both;  
 }
