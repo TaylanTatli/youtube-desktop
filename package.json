@@ -1,7 +1,7 @@
 {
   "name": "Youtube",
   "version": "1.0.7",
-  "pkgrel": "3",
+  "pkgrel": "4",
   "description": "Youtube desktop app",
   "main": "main.js",
   "scripts": {
