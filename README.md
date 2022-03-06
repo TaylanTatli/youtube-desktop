@@ -40,7 +40,7 @@ Even manage and run your streams conveniently from the Youtube application.
   ### Linux Appimage Arm7l
  - [Download](https://gitlab.com/youtube-music/binaries/1.0.4-5/-/raw/main/YoutubeMusic-arm7l.AppImage)
 
-   ### Linux Appimage Arm7l
+   ### Linux Appimage Arm64
  - [Download](https://gitlab.com/youtube-music/binaries/1.0.4-5/-/raw/main/YoutubeMusic-arm64.AppImage)
 
 
