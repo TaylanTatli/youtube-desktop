@@ -1,7 +1,7 @@
 {
   "name": "Youtube",
   "version": "1.0.7",
-  "pkgrel": "4",
+  "pkgrel": "5",
   "description": "Youtube desktop app",
   "main": "main.js",
   "scripts": {
@@ -14,11 +14,11 @@
   "author": "Corey Bruce",
   "license": "GPL",
   "devDependencies": {
-    "electron": "^17.0.0",
+    "electron": "^17.1.2",
     "electron-builder": "^22.14.13",
     "electron-packager": "^15.4.0"
   },
   "dependencies": {
-    "electron-context-menu": "^3.1.1"
+    "electron-context-menu": "^3.1.2"
   }
 }
