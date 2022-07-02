@@ -14,11 +14,12 @@
   "author": "Corey Bruce",
   "license": "GPL",
   "devDependencies": {
-    "electron": "^19.0.1",
-    "electron-builder": "^23.0.3",
+    "electron": "^19.0.7",
+    "electron-builder": "^23.1.0",
     "electron-packager": "^15.5.1"
   },
   "dependencies": {
-    "electron-context-menu": "^3.1.2"
+    "electron-context-menu": "^3.3.0",
+    "packager": "^0.1.9"
   }
 }
