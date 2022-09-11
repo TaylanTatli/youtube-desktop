@@ -34,7 +34,7 @@ function createWindow () {
   // and load the index.html of the app.
   mainWindow.loadFile('splash.html')
   setTimeout(function () {
-    mainWindow.loadURL('https://www.youtube.com/',{ userAgent: "Mozilla/5.0 (Youtube-Desktop) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36'"});
+    mainWindow.loadURL('https://www.youtube.com/',{ userAgent: "Mozilla/5.0 (Youtube-Desktop) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36'"});
   }, 3000) // Load store page after 3 secs
   mainWindow.maximize() // start maximized
   mainWindow.setMenuBarVisibility(false)
