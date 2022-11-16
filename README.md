@@ -35,13 +35,13 @@ Even manage and run your streams conveniently from the Youtube application.
  ## Linux Appimages
 
   ### Linux Appimage x64
- - [Download](https://gitlab.com/youtube-music/binaries/1.0.8-2/-/raw/main/Youtube-arm64.AppImage)
+ - [Download](https://gitlab.com/youtube-desktop/binaries/1.0.8-2/-/raw/main/Youtube-arm64.AppImage)
 
   ### Linux Appimage Arm7l
- - [Download](https://gitlab.com/youtube-music/binaries/1.0.8-2/-/raw/main/Youtube-arm7l.AppImage)
-
+ - [Download](https://gitlab.com/youtube-desktop/binaries/1.0.8-2/-/raw/main/Youtube-arm7vl.AppImage)
+  
    ### Linux Appimage Arm64
- - [Download](https://gitlab.com/youtube-music/binaries/1.0.8-2/-/raw/main/Youtube-arm64.AppImage)
+ - [Download](https://gitlab.com/youtube-desktop/binaries/1.0.8-2/-/raw/main/Youtube-arm64.AppImage)
 
 
  ## Windows 64bit
