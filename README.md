@@ -38,7 +38,7 @@ Even manage and run your streams conveniently from the Youtube application.
  - [Download](https://gitlab.com/youtube-desktop/binaries/1.0.8-2/-/raw/main/Youtube-arm64.AppImage)
 
   ### Linux Appimage Arm7l
- - [Download](https://gitlab.com/youtube-desktop/binaries/1.0.8-2/-/raw/main/Youtube-arm7vl.AppImage)
+ - [Download](https://gitlab.com/youtube-desktop/binaries/1.0.8-2/-/raw/main/Youtube-armv7l.AppImage)
   
    ### Linux Appimage Arm64
  - [Download](https://gitlab.com/youtube-desktop/binaries/1.0.8-2/-/raw/main/Youtube-arm64.AppImage)
