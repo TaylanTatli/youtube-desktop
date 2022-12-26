@@ -4,6 +4,6 @@ Type=Application
 Name=Youtube
 Comment=Unofficial Youtube Desktop Application
 Icon=youtubeapp
-Exec=/opt/Youtube/Youtube
+Exec=youtube
 Categories=Video;
 Name[en_AU.utf8]=Youtube
