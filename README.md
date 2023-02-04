@@ -18,6 +18,9 @@ Even manage and run your streams conveniently from the Youtube application.
 
  &nbsp;&nbsp;&nbsp;&nbsp;
 
+  You can install Youtube from the AUR for Arch/Manjaro distros.
+ [Click Here](https://aur.archlinux.org/packages/youtube/)
+
  ### Download For All platforms (Linux, Mac OS and Windows)
   
   [Click to get the latest release](https://gitlab.com/youtube-desktop/application/-/releases)
